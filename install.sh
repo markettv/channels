@@ -1,7 +1,5 @@
-# 1. الاتصال بالجهاز عبر SSH
-ssh root@<IP_ADDRESS_OF_VUPLUS>
-
-# 2. التنقل إلى مجلد /tmp وتنزيل الملف
+#!/bin/sh
+#
 cd /tmp
 wget https://github.com/markettv/channels/raw/main/bouquets24_backup.tar
 
